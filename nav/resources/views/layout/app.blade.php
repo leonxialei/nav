@@ -31,13 +31,29 @@
     <![endif]-->
 
     <!-- Favicons -->
-    {{--<link rel="apple-touch-icon" href="/apple-touch-icon.png">--}}
-    {{--<link rel="icon" href="/favicon.ico">--}}
+    <link rel="apple-touch-icon" href="{{url('images')}}/shenhua_logo.png">
+    <link rel="icon" href="{{url('images')}}/logo.ico">
 
 </head>
 <body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <ul class="nav navbar-nav navbar-left">
+            <li><a class="logo_nav" target="_blank" href="http://www.shenhuafc.com.cn/"><img src="{{url('/images')}}/shenhua_logo.png"></a></li>
+            <li class="active"><a href="{{url('/')}}">主页</a></li>
+            <li><a>{{date('Y年m月d')}}</a></li>
+            <li><a>上海</a></li>
+            <li><a>多云 20℃</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">登陆</a></li>
+            <li><a href="#">设置</a></li>
+        </ul>
+    </div>
+</nav>
+<div class="container-fluid">
 @yield('content')
-
+</div>
 <footer class="bs-docs-footer">
     <div class="container">
         <p>Designed and built with all the love in the world by <a href="https://twitter.com/mdo" target="_blank">@mdo</a> and <a href="https://twitter.com/fat" target="_blank">@fat</a>. Maintained by the <a href="https://github.com/orgs/twbs/people">core team</a> with the help of <a href="https://github.com/twbs/bootstrap/graphs/contributors">our contributors</a>.</p>
