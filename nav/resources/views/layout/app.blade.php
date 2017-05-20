@@ -36,6 +36,8 @@
 
 </head>
 <body>
+<div id="bg_img" style="background-image: url({{url('/images/bg')}}/def_background.jpg)">
+</div>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <ul class="nav navbar-nav navbar-left">

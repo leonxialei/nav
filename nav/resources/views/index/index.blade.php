@@ -2,7 +2,7 @@
 @section('content')
 
 <div class="row">
-    <div class="col-md-4">1</div>
+    <div class="col-md-4"></div>
     <div class="col-md-5">
         <div class="input-group">
             <input type="text" class="form-control" placeholder="Search for...">
@@ -11,7 +11,7 @@
       </span>
         </div><!-- /input-group -->
     </div>
-    <div class="col-md-3">1</div>
+    <div class="col-md-3"></div>
 
 </div>
 <div class="row">
