@@ -23,3 +23,25 @@ body .navbar-nav li a.logo_nav {
     background-size: 100%;
     background-repeat: no-repeat;
 }
+body .row div.section_content {
+    background-color: #FFF;
+    margin-left: 5px;
+}
+body .row div.section_content.top_nav {
+    height: 300px;
+}
+body .row div.section_content div.url_nav ul{
+    margin: 0;
+    padding: 0;
+}
+body .row div.section_content div.url_nav ul li{
+    display: inline-block;
+}
+body .row div.section_content div.url_nav ul li a{
+    display: block;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    color: #3c3c3c;
+}
