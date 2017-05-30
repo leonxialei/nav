@@ -23,6 +23,14 @@
                 <li><a>新浪</a></li>
                 <li><a>淘宝</a></li>
                 <li><a>安居客</a></li>
+                <li><a>百度</a></li>
+                <li><a>新浪</a></li>
+                <li><a>淘宝</a></li>
+                <li><a>安居客</a></li>
+                <li><a>百度</a></li>
+                <li><a>新浪</a></li>
+                <li><a>淘宝</a></li>
+                <li><a>安居客</a></li>
             </ul>
             <hr />
 
@@ -44,9 +52,9 @@
                     </li>
 
                 </ul>
-                <div id="myTabContent" class="tab-content">
+                <div id="news_content" class="tab-content">
                     <div role="tabpanel" class="tab-pane fade active in" id="home" aria-labelledby="home-tab">
-                        fsfergfergerg
+                        @include('news.focus')
                     </div>
                     <div role="tabpanel" class="tab-pane fade" id="profile" aria-labelledby="profile-tab">
                         rewwerwerwewer

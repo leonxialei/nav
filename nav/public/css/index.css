@@ -1,6 +1,12 @@
 body {
     padding-top: 70px;
 }
+body a {
+    color: #3C3C3C;
+}
+body a:hover {
+    text-decoration: none;
+}
 .navbar img {
     width: 30px;
     margin-right: 50px;
@@ -52,4 +58,28 @@ body .row div.section_content div.url_nav ul.nav_ul li a{
     line-height: 30px;
     color: #3c3c3c;
 
+}
+.news_value {
+    margin: 10px 0;
+    height: 412px;
+}
+.news_value .news_image_top img {
+    width: 350px;
+    height: 250px;
+}
+.news_value .news_image_top {
+    text-align: center;
+}
+.news_value .news_images {
+    text-align: center;
+}
+.news_value .news_images img {
+    width: 154px;
+    height: 100px;
+}
+.news_value ul {
+    font-size: 20px;
+}
+.news_value ul li {
+    margin: 12px 0;
 }
