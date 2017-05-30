@@ -37,11 +37,13 @@
 </head>
 <body>
 <div id="bg_img" style="background-image: url({{url('/images/bg')}}/def_background.jpg)">
+    <div id="bg_img" style="background-color: #1b6d85">
 </div>
 <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
         <ul class="nav navbar-nav navbar-left">
-            <li><a class="logo_nav" target="_blank" href="http://www.shenhuafc.com.cn/"><img src="{{url('/images')}}/shenhua_logo.png"></a></li>
+            {{--<li><a class="logo_nav" target="_blank" href="http://www.shenhuafc.com.cn/"><img src="{{url('/images')}}/shenhua_logo.png"></a></li>--}}
+
             <li class="active"><a href="{{url('/')}}">主页</a></li>
             <li><a>{{date('Y年m月d')}}</a></li>
             <li><a>上海</a></li>
@@ -72,6 +74,6 @@
 
 <script src="{{url('/js')}}/bootstrap.min.js"></script>
 
-
+@yield('javascript')
 </body>
 </html>

@@ -24,20 +24,27 @@ body .navbar-nav li a.logo_nav {
     background-repeat: no-repeat;
 }
 body .row div.section_content {
-    background-color: #FFF;
     margin-left: 5px;
 }
 body .row div.section_content.top_nav {
     height: 300px;
 }
-body .row div.section_content div.url_nav ul{
-    margin: 0;
+body div div div.url_nav{
+    padding: 0;
+    background-color: #FFF;
+    margin-bottom: 10px;
+}
+body .row div.section_content div.url_nav ul.nav_ul{
+    margin: 10px 0;
     padding: 0;
 }
-body .row div.section_content div.url_nav ul li{
+body .row div.section_content div.url_nav hr {
+    margin: 5px;
+}
+body .row div.section_content div.url_nav ul.nav_ul li{
     display: inline-block;
 }
-body .row div.section_content div.url_nav ul li a{
+body .row div.section_content div.url_nav ul.nav_ul li a{
     display: block;
     width: 100px;
     height: 30px;
